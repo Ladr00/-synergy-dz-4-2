@@ -2,22 +2,21 @@
 
 main()
 {
-
-	//вводж с клавиатуры 
-	int n;
-	int mas [ 100 ];
-	printf("kol element ");
-	scanf("%i", &n);
 	
-	for (int i = 0; i < n; i++)
+	// Ввести 7 чисел массива.
+	int mas [ 7 ];
+	printf("vvedite 7 chisel\n ");
+	
+	for (int i = 0; i < 7; i ++)
 	{
 		scanf("%i", &mas [ i ]);
 	}
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < 7; i ++)
 	{
-		printf("%4i", mas [ i ]);
+		printf("%3i", mas [ i ]);
 	}
 	
+
 	
 }
