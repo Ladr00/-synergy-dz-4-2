@@ -3,7 +3,7 @@
 main()
 {
 
-	//ввод с клавиатуры 
+	//РІРІРѕРґР¶ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹ 
 	int n;
 	int mas [ 100 ];
 	printf("kol element ");
@@ -11,12 +11,12 @@ main()
 	
 	for (int i = 0; i < n; i++)
 	{
-		scanf("%i", &mas [i]);
+		scanf("%i", &mas [ i ]);
 	}
 
 	for (int i = 0; i < n; i++)
 	{
-		printf("%4i", mas [i]);
+		printf("%4i", mas [ i ]);
 	}
 	
 	
